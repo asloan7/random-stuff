@@ -1,7 +1,7 @@
 FROM alpine:3.17.3
 
 ARG ARCH
-ARG KUBECTL_VERSION=1.25.6
+ARG KUBECTL_VERSION=1.25.8
 
 RUN case `uname -m` in \
     x86_64) ARCH=amd64; ;; \
